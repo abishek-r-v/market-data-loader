@@ -17,7 +17,7 @@ func main() {
 		app.Logger().Fatalf("failed to get data provider, err: " + err.Error())
 	}
 
-	securityServiceClient, err := client.NewSecurityServiceClient(app.Config, app.Metrics())
+	securityServiceClient, err := client.NewSecurityServiceClient(app.Config, app.Logger())
 	if err != nil {
 		app.Logger().Fatalf("failed to create security service client: %s", err)
 	}

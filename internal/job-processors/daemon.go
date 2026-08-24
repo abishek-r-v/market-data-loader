@@ -41,6 +41,7 @@ func (d *daemon) Start(ctx *gofr.Context) error {
 				}
 			case <-c.Done():
 				ctx.Logger.Info("shutting down daemon...")
+				ctx.Logger.Infof("closed security service client... %v", d.securityServiceClient.Close())
 				return
 			}
 		}
