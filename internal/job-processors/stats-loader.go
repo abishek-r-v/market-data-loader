@@ -9,7 +9,7 @@ import (
 	client "github.com/stratifyr/security-service-client"
 	"github.com/stratifyr/security-service-proto/go/pb"
 
-	dataProviders "github.com/stratifyr/market-data-loader/internal/data-providers"
+	dataProviders "github.com/stratifyr/market-data-manager/internal/data-providers"
 )
 
 type statsLoader struct {

@@ -5,8 +5,8 @@ import (
 
 	client "github.com/stratifyr/security-service-client"
 
-	dataProviders "github.com/stratifyr/market-data-loader/internal/data-providers"
-	"github.com/stratifyr/market-data-loader/internal/job-processors"
+	dataProviders "github.com/stratifyr/market-data-manager/internal/data-providers"
+	"github.com/stratifyr/market-data-manager/internal/job-processors"
 )
 
 func main() {

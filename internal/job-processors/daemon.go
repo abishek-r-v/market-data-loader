@@ -11,7 +11,7 @@ import (
 
 	client "github.com/stratifyr/security-service-client"
 
-	dataProviders "github.com/stratifyr/market-data-loader/internal/data-providers"
+	dataProviders "github.com/stratifyr/market-data-manager/internal/data-providers"
 )
 
 type daemon struct {

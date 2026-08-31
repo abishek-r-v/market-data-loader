@@ -1,4 +1,4 @@
-module github.com/stratifyr/market-data-loader
+module github.com/stratifyr/market-data-manager
 
 go 1.26.0
 
